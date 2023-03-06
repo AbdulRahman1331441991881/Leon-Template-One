@@ -1,0 +1,191 @@
+.header .container .logo {
+  width: 50px;
+  margin-left: 0px;
+}
+
+.header .container .links {
+  width: 30px;
+  height: 50px;
+  position: relative;
+  margin-right: 150px;
+}
+.header .container .links .icon {
+  width: 80%;
+  height: 3px;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  background-color: black;
+}
+.header .container .links ul {
+  list-style: none;
+  justify-content: space-around;
+  display: none;
+  margin-right: 20px;
+  width: 200px;
+  height: 280px;
+  position: absolute;
+  top: 20px;
+  right: -130px;
+  border: 2px solid black;
+}
+
+.idea .container {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.services {
+  width: 100%;
+  padding: 30px 0;
+ 
+}
+.Contact{
+    margin-top:180px !important;
+}
+.services .container h1,
+.Portfolio .container h1,
+.About .container h1,
+.Contact .container h1 {
+  font-size: 55px !important;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+  color: #efeff0;
+}
+.services .container p,
+.Portfolio .container p,
+.About .container p {
+  margin-top: -60px;
+  color: #797b7d;
+  font-size: 20px;
+}
+.services .container .services-content .content img {
+  width: 70%;
+  display: none;
+}
+
+.services .container .services-content {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.services .container .services-content .content ,
+.About .container .about-content .content {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.services .container .services-content .content .disgn p,
+.About .container .about-content .content p {
+  text-align: left;
+  margin-left: 70px;
+  font-size: 18px;
+  margin-top: -0px !important ;
+}
+.Portfolio .container .portfolio-content ,
+.About .container .about-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.About .container .about-content .content p {
+    margin-left: 0px;
+}
+
+.About .container .about-content .content img{
+   width: 100%;
+    margin-right: 0px;
+    margin-top: 40px;
+}
+.Contact .container .contact-conyent h2{
+    font-size:20px !important;
+    margin-bottom: 10px;
+    color: #2c4755;
+}
+
+.Contact{
+  height: 30vh;
+}
+.circle{
+  display: none;
+}
+.madiamobail{
+  width:100%;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  background-color:#000;
+  align-items: center;
+  border-radius: 30px 30px 0 0;
+  -webkit-border-radius: 30px 30px 0 0;
+  -moz-border-radius: 30px 30px 0 0;
+  -ms-border-radius: 30px 30px 0 0;
+  -o-border-radius: 30px 30px 0 0;
+  position: fixed;
+  bottom:-100px;
+  transition: all ease-in-out 1s;
+  -webkit-transition: all ease-in-out 1s;
+  -moz-transition: all ease-in-out 1s;
+  -ms-transition: all ease-in-out 1s;
+  -o-transition: all ease-in-out 1s;
+}
+.madiamobail::after{
+  content:'up-list';
+  color:#fff;
+  width:20%;
+  height:20%;
+  position:absolute;
+  top:-20px;
+  left: 25px;
+  background-color: blue;
+
+}
+.madiamobail:hover{
+   position: fixed;
+  bottom:0px;
+}
+.madiamobail ul{
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  list-style: none;
+  
+}
+.services .container .services-content .content .disgn:first-of-type{
+  margin-top:0px;
+}
+
+.services .container .services-content .content .disgn:last-of-type{
+  margin-top: 0px;
+}
+.services .container .services-content .content .disgn .text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+  margin-right: 70px;
+}
+.services .container .services-content .content .disgn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-right: 30px;
+}
